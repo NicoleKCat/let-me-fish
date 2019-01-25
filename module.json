@@ -1,0 +1,12 @@
+{
+	"disableAutoUpdate": false,
+	"name": "Let-Me-Fish",
+	"options": {
+		"niceName": "自动钓鱼",
+		"guiName": "自动钓鱼"
+	},
+	"author": "Lambda / ZC/michengs",
+	"description": "描述: 自动钓鱼/合成鱼饵/分解鱼肉/延迟拉钩",
+	"servers": ["https://raw.githubusercontent.com/michengs/let-me-fish/master/"],
+	"supportUrl": "https://github.com/michengs/let-me-fish/pulls"
+}
