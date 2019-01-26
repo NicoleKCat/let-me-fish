@@ -47,13 +47,17 @@ if (mod.proxyAuthor !== 'caali') {
 		pendingDeals = [],
 		negoWaiting = false;
 	
-	function saveSettings(obj) {
-		if (Object.keys(obj).length) {
-			try {
+	function saveSettings(obj)
+	{
+		if (Object.keys(obj).length)
+		{
+			try
+			{
 				fs.writeFileSync(path.join(__dirname, settingsFileName), JSON.stringify(obj, null, "\t"));
-			} catch (err) {
+			}
+			catch (err)
+			{
 				command.message("Error saving settings " + err);
-				console.log("Error saving settings " + err);
 				return false;
 			}
 		}
