@@ -62,18 +62,21 @@ if (mod.proxyAuthor !== 'caali') {
 			}
 		}
 	}
-	
-	function loadSettings() {
-		try {
+
+	function loadSettings()
+	{
+		try
+		{
 			return JSON.parse(fs.readFileSync(path.join(__dirname, settingsFileName), "utf8"));
-		} catch (err) {
-			command.message("Error loading settings " + err);
-			console.log("Error loading settings " + err);
+		}
+		catch (err)
+		{
 			return {};
 		}
 	}
 	
-	if (!fs.existsSync(path.join(__dirname, './saves'))) {
+	if(!fs.existsSync(path.join(__dirname, './saves')))
+	{
 		fs.mkdirSync(path.join(__dirname, './saves'));
 	}
 	
