@@ -14,23 +14,21 @@ tera-proxy\node_modules\tera-data\protocol\
 
 ------------------------
 
-2.编辑: tera-proxy\node_modules\tera-data\map\protocol.343318.map
+2.编辑: tera-proxy\node_modules\tera-data\map\protocol.344304.map
 
 台服(TW)请自行追加 5个映射码:
 
 ------------------------
 
-C_END_FISHING_MINIGAME = 21626
+S_START_FISHING_MINIGAME = 33617
 
-C_RQ_ADD_ITEM_TO_DECOMPOSITION_CONTRACT = 58457
+S_FISHING_BITE = 57342
 
-C_START_FISHING_MINIGAME = 31890
+C_START_FISHING_MINIGAME = 41579
 
+C_RQ_ADD_ITEM_TO_DECOMPOSITION_CONTRACT = 45188
 
-
-S_FISHING_BITE = 60088
-
-S_START_FISHING_MINIGAME = 57542
+C_END_FISHING_MINIGAME = 46824
 
 ------------------------
 

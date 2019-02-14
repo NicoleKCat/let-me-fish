@@ -476,7 +476,7 @@ if (mod.proxyAuthor !== 'caali') {
 			}
 		});
 		
-		Hook('S_INVEN', 16, event => {
+		Hook('S_INVEN', 17, event => {
 			if (!enabled) return;
 			
 			invenItems = event.first ? event.items : invenItems.concat(event.items);
